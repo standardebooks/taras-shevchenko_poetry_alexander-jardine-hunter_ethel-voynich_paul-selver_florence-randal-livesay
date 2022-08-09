@@ -34,66 +34,91 @@
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Poetry</meta>
+		<dc:description id="description">A collection of Taras Shevchenko’s poetry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/taras-shevchenko"&gt;Taras Shevchenko&lt;/a&gt; is celebrated as the Ukrainian national poet and a founder of modern Ukranian literature. A child of serfs, Shevchenko received a religious education before being discovered as a painter, leading to his emancipation from serfdom in 1838. After a few years of activity as a painter and poet in the early 1840s, Shevchenko was arrested by Tsarist Russian authorities for his revolutionary poetry and association with the Brotherhood of Saints Cyril and Methodius, a secret society for the liberation of Ukraine. Subsequently, Shevchenko was ordered to be exiled to Siberia “under the strictest surveilance, without the right to write or paint” by Tsar Nicholas I himself. (He had earned the Tsar’s emnity by writing a poem mocking his wife’s appearance.) Shevchenko returned to Ukraine following Nicholas I’s death, but died shortly thereafter. Shevchenko’s poetry continues to inspire those engaged in the struggle for Ukrainian independence, including the Euromaidan protests of the early 2010s and resistance against the 2022 Russian invasion of Ukraine.&lt;/p&gt;
 		</meta>
-		<dc:language>en-US</dc:language>
+		<dc:language>en-CA</dc:language>
+		<!--The Kobzar of the Ukraine (Hunter)-->
 		<dc:source>https://www.gutenberg.org/ebooks/68486</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/kobzarofukraineb00shev_0</dc:source>
+		<!--Six Lyrics from the Ruthenian of Tarás Shevchénko (Voynich)-->
+		<dc:source>https://taras-shevchenko.storinka.org/ethel-lilian-voynich-and-her-translations-of-shevchenko%27s-poetry.html</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/102837808</dc:source>
+		<!--Anthology of Modern Slavonic Literature in Prose and Verse (Selver)-->
+		<dc:source>https://en.wikisource.org/wiki/Anthology_of_Modern_Slavonic_Literature_in_Prose_and_Verse</dc:source>
+		<dc:source>https://archive.org/details/anthologymodern00selvgoog</dc:source>
+		<!--Songs of Ukraina (Livesay)-->
+		<dc:source>https://digital.library.upenn.edu/women/livesay/ukraina/ukraina.html</dc:source>
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.209630</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/taras-shevchenko_poetry_alexander-jardine-hunter_ethel-lilian-voynich_paul-selver_florence-randal-livesay</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/taras-shevchenko_poetry_alexander-jardine-hunter_ethel-lilian-voynich_paul-selver_florence-randal-li</meta>
 		<dc:creator id="author">Taras Shevchenko</dc:creator>
 		<meta property="file-as" refines="#author">Shevchenko, Taras</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Taras Hryhorovych Shevchenko</meta>
+		<meta property="alternate-script" refines="#author">Тарас Григорович Шевченко</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Taras_Shevchenko</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79119044</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Alexander Jardine Hunter</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Hunter, Alexander Jardine</meta>
-		<meta property="se:name.person.full-name" refines="#translator-1">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/no2013047579</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
+		<meta property="se:role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<dc:contributor id="translator-2">Ethel Lilian Voynich</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Voynich, Ethel Lilian</meta>
-		<meta property="se:name.person.full-name" refines="#translator-2">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/Ethel_Voynich</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n83141674</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
+		<meta property="se:role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<dc:contributor id="translator-3">Paul Selver</dc:contributor>
 		<meta property="file-as" refines="#translator-3">Selver, Paul</meta>
-		<meta property="se:name.person.full-name" refines="#translator-3">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-3">https://en.wikipedia.org/wiki/Paul_Selver</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-3">http://id.loc.gov/authorities/names/n82272439</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-4">Florence Randal Livesay</dc:contributor>
 		<meta property="file-as" refines="#translator-4">Livesay, Florence Randal</meta>
-		<meta property="se:name.person.full-name" refines="#translator-4">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#translator-4">Florence Hamilton Randal Livesay</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-4">https://en.wikipedia.org/wiki/Florence_Randal_Livesay</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-4">http://id.loc.gov/authorities/names/n82093684</meta>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="se:role" refines="#translator-4" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Ilya Repin</dc:contributor>
+		<meta property="file-as" refines="#artist">Repin, Ilya</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Ilya Yefimovich Repin</meta>
+		<meta property="alternate-script" refines="#artist">Илья Ефимович Репин</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Ilya_Repin</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79075231</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-1">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://pgdp.net</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-1">https://en.wikipedia.org/wiki/Distributed_Proofreaders</meta>
+		<dc:contributor id="transcriber-2">Jeroen Hellingman</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Hellingman, Jeroen</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Storinka</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Storinka</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-4">https://en.wikisource.org</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-4">https://en.wikipedia.org/wiki/Wikisource</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Mary Mark Ockerbloom</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Ockerbloom, Mary Mark</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://weijiarhymeswith.asia</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
