@@ -2,8 +2,8 @@
 <se-lint-ignore>
 	<file path="poetry.xhtml">
 		<ignore>
-		 <code>t-005</code>
-		 <reason>This passage being flagged is not dialog (also, this is a poem anyways).</reason>
+			<code>t-005</code>
+			<reason>This passage being flagged is not dialog (also, this is a poem anyways).</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
