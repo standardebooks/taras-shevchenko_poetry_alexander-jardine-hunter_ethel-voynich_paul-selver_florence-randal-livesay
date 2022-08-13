@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/taras-shevchenko/poetry/alexander-jardine-hunter_ethel-lilian-voynich_paul-selver_florence-randal-livesay</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-08-13T18:12:00Z</dc:date>
+		<meta property="dcterms:modified">2022-08-13T18:12:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -37,7 +37,9 @@
 		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">A collection of Taras Shevchenko’s poetry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/taras-shevchenko"&gt;Taras Shevchenko&lt;/a&gt; is celebrated as the Ukrainian national poet and a founder of modern Ukrainian literature. A child of serfs, Shevchenko received a religious education before being discovered as a painter, leading to his emancipation from serfdom in 1838. After a few years of activity as a painter and poet in the early 1840s, Shevchenko was arrested by Tsarist Russian authorities for his revolutionary poetry and association with the Brotherhood of Saints Cyril and Methodius, a secret society for the liberation of Ukraine. Subsequently, Shevchenko was ordered to be exiled to Siberia “under the strictest surveillance, without the right to write or paint” by Tsar Nicholas I himself. (He had earned the Tsar’s enmity by writing a poem mocking his wife’s appearance.) Shevchenko returned to Ukraine following Nicholas I’s death, but died shortly thereafter. Shevchenko’s poetry continues to inspire those engaged in the struggle for Ukrainian independence, including the Euromaidan protests of the early 2010s and resistance against the 2022 Russian invasion of Ukraine.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/taras-shevchenko"&gt;Taras Shevchenko&lt;/a&gt; is celebrated as the Ukrainian national poet and a founder of modern Ukrainian literature.&lt;/p&gt;
+			&lt;p&gt;A child of serfs, Shevchenko received a religious education before being discovered as a painter, leading to his emancipation from serfdom in 1838. After a few years of activity as a painter and poet in the early 1840s, Shevchenko was arrested by Tsarist Russian authorities for his revolutionary poetry and association with the Brotherhood of Saints Cyril and Methodius, a secret society for the liberation of Ukraine. Subsequently, Shevchenko was ordered to be exiled to Siberia “under the strictest surveillance, without the right to write or paint” by Tsar Nicholas I himself. (He had earned the Tsar’s enmity by writing a poem mocking his wife’s appearance.)&lt;/p&gt;
+			&lt;p&gt;Shevchenko returned to Ukraine following Nicholas I’s death, but died shortly thereafter. Shevchenko’s poetry continues to inspire those engaged in the struggle for Ukrainian independence, including the Euromaidan protests of the early 2010s and resistance against the 2022 Russian invasion of Ukraine.&lt;/p&gt;
 		</meta>
 		<dc:language>en-CA</dc:language>
 		<!--The Kobzar of the Ukraine (Hunter)-->
@@ -52,8 +54,8 @@
 		<!--Songs of Ukraina (Livesay)-->
 		<dc:source>https://digital.library.upenn.edu/women/livesay/ukraina/ukraina.html</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.209630</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">14602</meta>
+		<meta property="se:reading-ease.flesch">82.44</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/taras-shevchenko_poetry_alexander-jardine-hunter_ethel-lilian-voynich_paul-selver_florence-randal-li</meta>
 		<dc:creator id="author">Taras Shevchenko</dc:creator>
 		<meta property="file-as" refines="#author">Shevchenko, Taras</meta>
@@ -120,6 +122,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
