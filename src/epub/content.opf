@@ -35,6 +35,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of Taras Shevchenko’s poetry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/taras-shevchenko"&gt;Taras Shevchenko&lt;/a&gt; is celebrated as the Ukrainian national poet and a founder of modern Ukrainian literature.&lt;/p&gt;
