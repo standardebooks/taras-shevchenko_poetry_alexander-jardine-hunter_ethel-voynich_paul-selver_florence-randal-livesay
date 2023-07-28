@@ -68,3 +68,7 @@ p span.i8{
 	padding-left: 9em;
 	text-indent: -1em;
 }
+
+[epub|type~="z3998:poem"] hgroup p{
+	text-align: center;
+}
